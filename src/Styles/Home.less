@@ -1,0 +1,292 @@
+@import "../variables.less";
+.homeBody {
+	width: 100vw;
+	height: 100vh;
+
+	.centerElements {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		height: 100%;
+
+		.helloText {
+			font: normal normal 700 40px/48px "Courier New";
+			margin-top: 100px;
+			color: #fff;
+			height: 130px;
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			.hey {
+				text-align: left;
+				width: 85%;
+				margin-bottom: 15px;
+			}
+			.Typewriter {
+				width: 100%;
+				text-align: justify;
+				margin-left: 22%;
+				font: normal normal 700 60px / 52px "Courier New";
+				color: #07f6ff;
+			}
+			.wave {
+				animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+				animation-duration: 2.5s; /* Change to speed up or slow down */
+				animation-iteration-count: infinite; /* Never stop waving :) */
+				transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+				display: inline-block;
+			}
+
+			@keyframes wave-animation {
+				0% {
+					transform: rotate(0deg);
+				}
+				10% {
+					transform: rotate(14deg);
+				} /* The following five values can be played with to make the waving more or less extreme */
+				20% {
+					transform: rotate(-8deg);
+				}
+				30% {
+					transform: rotate(14deg);
+				}
+				40% {
+					transform: rotate(-4deg);
+				}
+				50% {
+					transform: rotate(10deg);
+				}
+				60% {
+					transform: rotate(0deg);
+				} /* Reset for the last half to pause */
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+		}
+	}
+	.aboutSection {
+		margin-top: 40px;
+		.aboutTitle {
+			display: none;
+		}
+		.aboutText {
+			font: normal normal 400 16px / 20px "Poppins";
+			line-height: 1.5;
+			color: #fff;
+			text-align: justify;
+		}
+	}
+	.blinking-button {
+		font-size: 12px;
+		color: #0101019e;
+		padding: 10px;
+		position: absolute;
+		bottom: 25px; /* Adjust distance from the bottom */
+		right: 25px; /* Adjust distance from the right */
+		display: flex;
+		flex-direction: column;
+		.arrowImage {
+			width: 30px;
+		}
+	}
+
+	@keyframes blinkAnimation {
+		0%,
+		50%,
+		100% {
+			opacity: 1;
+		}
+		25%,
+		75% {
+			opacity: 0;
+		}
+	}
+
+	.blink {
+		animation: blinkAnimation 1s linear infinite;
+	}
+
+	.homeSocials {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background: #fff;
+		box-shadow: rgba(33, 33, 34, 0.2) 4px 15px 25px 4px;
+		padding: 10px 15px;
+		border-radius: 0px 10px 10px 0px;
+		border: #7f7e7e;
+		border-width: 12px;
+		.social {
+			padding: 5px 0px;
+			.social-icon-link {
+				.social-icon {
+					width: 35px;
+					height: 35px;
+				}
+				.social-icon:hover {
+					transition: all 0.4s ease-in-out;
+					scale: 1.3;
+				}
+			}
+		}
+	}
+}
+
+.homeBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	background-image: linear-gradient(#060b37, #0e91e1bd);
+	// linear-gradient(#6434a9, #46c0cd);
+	// background-image: linear-gradient(#6140ab, #45ccd0);
+}
+
+.HomePage {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.centerElements {
+	display: flex;
+	width: 80%;
+}
+.helloText,
+.aboutSection {
+	width: 80%;
+	// border: 1px solid #fff;
+	// border-radius: 12px;
+	// padding: 20px;
+}
+
+.aboutSection {
+	width: 80%;
+	border: 1px solid #fff;
+	border-radius: 12px;
+	padding: 35px;
+}
+
+.leftHalf,
+.rightHalf {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.leftHalf{
+	margin-left: 100px;
+}
+.aboutButton {
+	display: flex;
+	width: 70%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.resumeButton,.contactButton {
+	background: #07f6ff;
+	color: #fff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: all ease-in-out 0.3s;
+	margin-top: 30px;
+	box-shadow: #07f6ff 0px 0px 4px 2px;
+}
+.resumeButton:hover, .contactButton:hover {
+	background: #fff;
+	color: #07f6ff;
+}
+.rightHalf {
+justify-content: flex-end;
+}
+.mainImage{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.myImage {
+height: 700px;
+	width: 500px;
+	object-fit: cover;
+}
+
+.homeSocials {
+	position: fixed;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+}
+
+@media screen and (max-width: @mobile_width) {
+	.homeBody {
+		flex-direction: column;
+		.myImage {
+			border-radius: 50%;
+			margin-top: 100px;
+			object-fit: cover;
+		}
+		.centerElements {
+			flex-direction: column;
+			.helloText {
+				.hey {
+					margin-bottom: 5px;
+					width: 100%;
+					padding-left: 10px;
+				}
+				margin-top: 8px;
+				height: auto;
+				font: normal normal 600 26px/28px "Courier New";
+				.Typewriter {
+					margin-left: 40px;
+					font: normal normal 600 30px/28px "Courier New";
+				}
+			}
+			.myImage {
+				width: 200px;
+				height: 200px;
+				border: 3px solid #fff;
+			}
+			.aboutSection {
+				padding: 10px;
+				margin: 15px 20px 40px;
+				width: auto;
+
+				.aboutText {
+					font: normal normal 400 18px / 20px "Poppins";
+					line-height: 1.5;
+					color: #fff;
+					text-align: justify;
+				}
+			}
+			.rightHalf {
+				margin-top: 10px;
+			}
+		}
+
+		.blinking-button {
+			display: none;
+		}
+
+		.homeSocials {
+			display: none;
+		}
+	}
+}

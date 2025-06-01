@@ -1,0 +1,160 @@
+{
+	"Home": {
+		"MainText1": "Surbhi Sharma",
+		"MainText2": "A Frontend Developer",
+		"MainText3": "Surbhi Sharma",
+		"ResumeLink": "https://www.overleaf.com/project/6836fdba3e6d556f2bc9e775",
+		"ContactLink": "mailto:surbhisharma200310@gmail.com",
+		"Socials": [
+			{
+				"link": "https://www.linkedin.com/in/surbhi-sharma-a2480a266/",
+				"alt": "LinkedIn"
+			},
+			{
+				"link": "mailto:surbhisharma200310@gmail.com",
+				"alt": "Gmail"
+			},
+			{
+				"link": "https://github.com/surbhi0310",
+				"alt": "Github"
+			}
+		]
+	},
+	"About": {
+		"Title": "About",
+		"Text": "A freshly minted Full Stack Developer who’s decided to focus on the frontend — because who doesn’t love making things look awesome and work smoothly? I’m all about turning coffee ☕ and code into pixel-perfect websites using HTML, CSS, JavaScript, and React. Still learning, always curious, and ready to build cool stuff!"
+	},
+"Skill": [
+		{
+			"type": "Languages",
+			"list": [
+				
+				{	"name": "HTML5",
+					"icon": "<i class='devicon-html5-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "CSS3",
+					"icon": "<i class='devicon-css3-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "<i class='devicon-javascript-plain colored'></i>"
+				},
+				{
+					"name": "ReactJS",
+					"icon": "<i class='devicon-react-original-wordmark colored'></i>"
+				},
+				{
+					"name": "Python",
+					"icon": "<i class='devicon-python-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "SQL",
+					"icon": "<i class='devicon-azuresqldatabase-plain colored'></i>"
+				}
+			]
+		},
+		{
+			"type": "Framework and Libraries",
+			"list": [
+				{
+					"name": "NodeJs",
+					"icon": "<i class='devicon-nodejs-original-wordmark colored'></i>"
+				},
+				{
+					"name": "Redux",
+					"icon": "<i class='devicon-redux-original colored'></i>"
+				},
+				{
+					"name": "Tailwind CSS",
+					"icon": "<i class='devicon-tailwindcss-plain colored'></i>"
+				},
+				{
+					"name": "Nodejs",
+					"icon": " <i class='devicon-nodejs-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "ExpressJS",
+					"icon": "<i class='devicon-express-original-wordmark colored'></i>"
+				},
+				{
+					"name": "Bootstrap",
+					"icon": "<i class='devicon-bootstrap-plain-wordmark colored'></i>"
+				}
+			]
+		},
+		{
+			"type": "DataBase",
+			"list": [
+				{
+					"name": "MySQL",
+					"icon": "<i class='devicon-mysql-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "MongoDB",
+					"icon": "<i class='devicon-mongodb-plain-wordmark colored'></i>"
+				}
+			]
+		},
+		{
+			"type": "Others",
+			"list": [
+				{
+					"name": "Git",
+					"icon": "<i class='devicon-git-plain-wordmark colored'></i>"
+				},
+				{
+					"name": "GitHub",
+					"icon": "<i class='devicon-github-original-wordmark colored'></i>"
+				},
+				{
+					"name": "VS Code",
+					"icon": "<i class='devicon-vscode-plain colored'></i>"
+				}
+			]
+		}
+	],
+
+	"Education": {
+		"Title": "Education",
+		"School": [
+			{
+				"Institution": "Maharaja Agrasen College, University of Delhi",
+				"Degree": "Bachelor of Arts (Computer Application and Mathematics)",
+				"Year": "2021 - 2025",
+				"Grades": "7.77",
+				"row": "row-1"
+			},
+			{
+				"Institution": "Shree ThakurDwara Balika Vidyalaya",
+				"Degree": "Class 12 - CBSE Board",
+				"Year": "2021",
+				"Grades": "90.25%",
+				"row": "row-2"
+			},
+			{
+				"Institution": "Shree ThakurDwara Balika Vidyalaya",
+				"Degree": "Class 10 - CBSE Board",
+				"Year": "2019",
+				"Grades": "85.33%",
+				"row": "row-1"
+			}
+		]
+	},
+	"Footer": {
+		"Socials": [
+			{
+				"link": "https://www.linkedin.com/in/surbhi-sharma-a2480a266/",
+				"alt": "LinkedIn"
+			},
+			{
+				"link": "mailto:surbhisharma200310@gmail.com",
+				"alt": "Gmail"
+			},
+			{
+				"link": "https://github.com/surbhi0310",
+				"alt": "Github"
+			}
+		]
+	}
+}
