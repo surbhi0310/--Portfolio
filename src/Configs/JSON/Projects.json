@@ -3,9 +3,9 @@
 		{
 			"ProjectId": 1,
 			"ProjectName": "Red Bus Clone",
-			"ProjectDescription": "A modern, interactive world atlas - 'Discover the World Beyond Borders.'",
-			"ProjectDesc": "A modern, interactive world atlas designed to help you discover countries, capitals, landmarks, and more with 3D revolving earth view which make it Perfect for students, travelers, and curious minds eager to learn and explore more about our planet. This website is a combination of impressive UI with Knowledge.",
-			"ProjectLink": "",
+			"ProjectDescription": "",
+			"ProjectDesc": "",
+			"ProjectLink": "https://github.com/surbhi0310/Red-Bus-Clone",
 			"RepositoryLink": "https://github.com/surbhi0310/Red-Bus-Clone",
 			"ProjectImage": "RedBus.GIF",
 			"AvatarColor": "#3c791e"
@@ -15,7 +15,7 @@
 			"ProjectName": "Portfolio",
 			"ProjectDescription": "A portfolio website to showcase my skills and projects.",
 			"ProjectDesc": "Developed a dynamic and responsive portfolio website using React.js to showcase my projects, skills, and professional experience. The website features an interactive user interface with smooth animations and transitions, which enhances the user experience.",
-			"ProjectLink": "https://geetanjali-20.github.io/portfolio/",
+			"ProjectLink": "https://portfolio-tau-azure-83.vercel.app/",
 			"RepositoryLink": "https://github.com/surbhi0310/--Portfolio",
 			"ProjectImage": "Portfolio.jpg",
 			"AvatarColor": "#6434a9"
@@ -23,9 +23,9 @@
 		{
 			"ProjectId": 3,
 			"ProjectName": "Tic Tac Toe",
-			"ProjectDescription": "NextFood showcases delicious recipes, community reviews.",
-			"ProjectDesc": " NextFood showcases delicious recipes, Community review, and an intuitive user experience. Built with dynamic routing, server-side rendering, and optimized performance for seamless browsing.",
-			"ProjectLink": "",
+			"ProjectDescription": "",
+			"ProjectDesc": "",
+			"ProjectLink": "https://github.com/surbhi0310/Tic-Tac-Toe",
 			"RepositoryLink": "https://github.com/surbhi0310/Tic-Tac-Toe",
 			"ProjectImage": "ttt.GIF",
 			"AvatarColor": "#6b412b"
@@ -33,9 +33,8 @@
 		{
 			"ProjectId": 4,
 			"ProjectName": "Scientific Calculator",
-			"ProjectDescription": "A slider bar for Facebook posts shows % of sentiments of a post.",
-			"ProjectDesc": "A slider bar for Facebook posts shows the percentage according to the sentiments of all the post’s comments whether the post is more towards positive, negative, or neutral",
-			"ProjectLink": "",
+			"ProjectDescription": "",
+			"ProjectLink": "https://github.com/surbhi0310/scientific-calculator",
 			"RepositoryLink": "https://github.com/surbhi0310/scientific-calculator",
 			"ProjectImage": "Cal.GIF",
 			"AvatarColor": "#6434a9"

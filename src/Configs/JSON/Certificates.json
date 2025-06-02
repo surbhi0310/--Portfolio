@@ -2,32 +2,32 @@
     "Certificates": [
         {
             "id": 1,
-            "name": "Career Essentials in Project Management",
-            "description": "Career Essentials in Project Management Certification by Microsoft and LinkedIn",
+            "name": "Responsive Web Design",
+            "description": "",
             "image":"C1-Resp.jpg",
-            "link": "https://drive.google.com/file/d/1qqZ0pfz1-bdScgi7sQLzrXtaZcb9oG0_/view"
+            "link": ""
         },
         {
             "id": 2,
-            "name": "Gold Developer Title",
-            "description": "Gold Developer Title in eBootathon-4 organized by AKTU and IIT-Kanpur.",
+            "name": "Full Stack Development",
+            "description": "",
             "image": "C2 - FSD.jpg",
-            "link": "https://drive.google.com/file/d/1Q1dpEiBfW_RZ5sD-H4IWuW2VQR7jJbRF/view"
+            "link": ""
             
         },
         {
             "id": 3,
-            "name": "TOYCATHON 2021",
-            "description": "Finalist in TOYCATHON 2021 a National-level Hackathon.",
+            "name": "Development Workshop",
+            "description": "",
             "image": "C3-Mac.jpg",
-            "link": "https://drive.google.com/file/d/18Zv8rKqiYpi3ztQKZsBmUzMhRlCuAisg/view"
+            "link": ""
         },
         {
           "id": 4,
-          "name": "Data Science & Machine Learning",
+          "name": "Acheivement",
           "description": "",
           "image": "C4-NEP.jpg",
-          "link": "https://drive.google.com/file/d/1UvslV9bzWw13LFLPayZUooMCI0In0HwU/view"
+          "link": ""
       }
     ]
 
